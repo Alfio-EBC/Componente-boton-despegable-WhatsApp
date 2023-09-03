@@ -6,15 +6,15 @@ button#miBoton {
     bottom: 93px;
     right: 18px;
 }
-    .oculto {
-        display: none;
-    }
-    .Desplegable {
-        background-color: #25d371;
-    }
+.oculto {
+    display: none;
+}
+.Desplegable {
+    background-color: #25d371;
+}
 
-    .Desplegable {
-        -webkit-border-top-left-radius: 23px;
+.Desplegable {
+    -webkit-border-top-left-radius: 23px;
     -webkit-border-top-right-radius: 23px;
     -moz-border-radius-topleft: 23px;
     -moz-border-radius-topright: 23px;
@@ -23,57 +23,55 @@ button#miBoton {
     background-color: #25d371;
     margin-bottom: 7px;
     padding: 12px;
-
-    }
-    .nota h2 {
-        font-size: 22px;
-        color: #fff;
-        margin: 0;
-    }
-    .nota a {
-        text-decoration: none!important;
-        padding: 7px 14px;
-        font-weight: 800;
-        font-size: 1.1em;
-        display: block;
-        color: #000;
-
-    }
-    .nota a:hover {
-        color: grey;
-    }
+}
+.nota h2 {
+    font-size: 22px;
+    color: #fff;
+    margin: 0;
+}
+.nota a {
+    text-decoration: none !important;
+    padding: 7px 14px;
+    font-weight: 800;
+    font-size: 1.1em;
+    display: block;
+    color: #000;
+}
+.nota a:hover {
+    color: grey;
+}
+.nota {
+    box-shadow: 1px 4px 3px 0px #2c2c2c3b;
+    background-color: #ffffff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+    line-height: 1.3em;
+    font-size: 0.9em;
+    position: fixed;
+    bottom: 175px;
+    height: 166px;
+    color: #fff;
+    width: 278px;
+    right: 13px;
+}
+.nota::before {
+    box-shadow: 3px 4px 3px 0px #2c2c2c3b;
+    border-bottom: 29px solid #ffffff;
+    border-top: 0px solid transparent;
+    border-left: 26px solid transparent;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -13px;
+    margin: auto;
+    left: 34px;
+    content: "";
+    width: 0;
+    height: 0;
+}
+@media (max-width: 600px) {
     .nota {
-        box-shadow: 1px 4px 3px 0px #2c2c2c3b;
-        background-color: #ffffff;
-        -webkit-border-radius: 23px;
-        -moz-border-radius: 23px;
-        border-radius: 23px;
-        line-height: 1.3em;
-        font-size: 0.9em;
-        position: fixed;
-        bottom: 175px;
-        height: 166px;
-        color: #fff;
-        width: 278px;
-        right: 13px;
+        height: 245px;
+        width: 89%;
     }
-    .nota::before {
-        box-shadow: 3px 4px 3px 0px #2c2c2c3b;
-        border-bottom: 29px solid #ffffff;
-        border-top: 0px solid transparent;
-        border-left: 26px solid transparent;
-        transform: rotate(45deg);
-        position: absolute;
-        bottom: -13px;
-        margin: auto;
-        left: 34px;
-        content: "";
-        width: 0;
-        height: 0;
-    }
-    @media (max-width: 600px) {
-        .nota {
-            height: 245px;
-            width: 89%;
-        }
-    }
+}

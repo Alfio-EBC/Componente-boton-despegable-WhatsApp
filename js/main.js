@@ -1,5 +1,4 @@
     newFunction();
-
 function newFunction() {
     const miElemento = document.getElementById("miElemento");
     const miBoton = document.getElementById("miBoton");
